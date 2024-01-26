@@ -19,4 +19,4 @@ How to install the project in your local:
 2. Run `npm install` for install all the dependencies.
 3. Run `npm run dev` to start the project on dev mode and that's it :3.
 
-Want to see it on the web?: [See it on Github Pages](https://javier-barreto.github.io/MyPokedex/)
+Want to see it on the web? <a href='https://javier-barreto.github.io/MyPokedex/'>See it on Github Pages</a>
