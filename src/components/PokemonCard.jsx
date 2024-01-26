@@ -2,13 +2,14 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import PropTypes from 'prop-types'
 import { setPokemonData } from '../javascript/redux/slices/pokemonSlice'
+import pokemonDefault from '../assets/pokemonDefault.png'; // Tell webpack this JS file uses this image
 
 
 export const PokemonCard = (data) => {
   const dispatch = useDispatch()
   const { id, base_experience, name, height, weight, pokemon_v2_pokemonstats, pokemon_v2_pokemonsprites } = data.data
   const { sprites: { other: { home: { front_default } } } } = pokemon_v2_pokemonsprites[0]
-  let img = front_default ? front_default : './assets/pokemonDefault.png' 
+  let img = front_default ? front_default : pokemonDefault 
 
   const newData = {
     id: id,
