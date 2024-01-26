@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { fakePokemonData } from '../assets/fakedata'
+import { fakePokemonData } from '../javascript/fakedata'
 
 export const PokemonInfoModal = () => {
   let pokeData = useSelector((state) => state.pokedux.pokeData)

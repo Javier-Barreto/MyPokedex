@@ -3,7 +3,7 @@ import { useQuery } from '@apollo/client'
 import { GET_POKEMONS } from '../javascript/graphql/pokemonQueries'
 import { PokemonCard } from './PokemonCard'
 import { LoadingCard } from "./LoadingCard"
-import { fakePokemonsData } from '../assets/fakedata'
+import { fakePokemonsData } from '../javascript/fakedata'
 
 const DisplayPokemons = () => {
   const [limit, setPokemonsLimit] = useState(50)

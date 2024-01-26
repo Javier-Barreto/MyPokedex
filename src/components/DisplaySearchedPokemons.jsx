@@ -2,7 +2,7 @@ import { useQuery } from '@apollo/client'
 import { GET_POKEMONS_BY_NAME } from '../javascript/graphql/pokemonQueries'
 import { PokemonCard } from './PokemonCard'
 import { LoadingCard } from "./LoadingCard"
-import { fakePokemonsData } from '../assets/fakedata'
+import { fakePokemonsData } from '../javascript/fakedata'
 
 const DisplaySearchedPokemons = ({ name }) => {
   const { loading, error, data } = useQuery(GET_POKEMONS_BY_NAME(name))
