@@ -1,7 +1,7 @@
 # MyPokedex
 > Practice Project
 
-This project uses the API of Pokemon and the main purpose of this project is to learn how does graphql works on APIs like the one from pokemon.
+This project is a one single page proyect that uses the API of Pokemon and the main purpose of this project is to learn how does graphql works on APIs like the one from pokemon.
 
 ## Tech Stack 🧰
 Tech stack:
